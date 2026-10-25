@@ -15,7 +15,7 @@ public class CorsConfig {
             public void addCorsMappings(CorsRegistry registry) {
                 registry.addMapping("/**")
                         .allowedOriginPatterns(
-                                "https://eyeshade-photography.vercel.app",
+                                "https://mathrushreebhavana.vercel.app/",
                                 "http://localhost:*",
                                 "https://localhost:*",
                                 "http://127.0.0.1:*",
