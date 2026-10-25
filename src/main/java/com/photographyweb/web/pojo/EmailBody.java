@@ -5,7 +5,6 @@ import lombok.Getter;
 import lombok.NoArgsConstructor;
 import lombok.Setter;
 
-import java.time.LocalDate;
 import java.util.List;
 
 @Getter
@@ -17,4 +16,5 @@ public class EmailBody {
     private String senderName;
     private String senderPhone;
     private List<Order> senderOrder;
+
 }
